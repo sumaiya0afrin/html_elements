@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT=8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>Elements</title>
+        <link rel="shorcut icon" type="image" href="./icons/s_icon.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <h1>The input element</h1>
+
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <!--<input type="submit" value="Submit">-->
+          <button onclick="alert('Your data is successfully recorded')">Submit</button>
+        </form>
+
+                            
+
+                <h1>The iframe element</h1>
+
+<iframe src="https://www.canva.com/q/pro/?clickId=Xb8TCEX4gxyIRncztERG82dNUkDzSZ3tqwcNwM0&utm_medium=affiliate&utm_source=VadWay%20Media_3144197&irgwc=1" title="canva">
+
+</iframe>
+
+                <h1>The label element</h1>
+
+                <p>Click on one of the text labels to toggle the related radio button:</p>
+
+                <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                 <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                 <label for="css">CSS</label><br>
+                 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                 <label for="javascript">JavaScript</label><br><br>
+                <!--<input type="submit" value="Submit">-->
+                <button onclick="alert('Your data is successfully recorded')">Submit</button>
+                </form>
+                
+                <h1>The legend element</h1>
+                
+                <fieldset>
+                <legend>Form:</legend>
+                <p> After filling the fields<b><span style="color:green"> click on submit </span></b>button</p>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <button onclick="alert('Your data is successfully recorded')">Submit</button>
+                </fieldset>
+
+                <h1>The map and area elements</h1>
+
+                    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+                    <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400">
+
+                    <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="dairy" href="images/diary.jpg" width="200">
+                    <!--<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">-->
+                    <!--<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="images/coffee.jpg">-->
+                    </map>
+
+                                        <h1>The meter element</h1>
+
+                    <p>The meter element is used to display a gauge:</p>
+
+                    <label for="disk_c">Disk usage C:</label>
+                    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+                    <label for="disk_d">Disk usage D:</label>
+                    <meter id="disk_d" value="0.6">60%</meter><br>
+
+                    <label for="disk_f">Disk usage F:</label>
+                    <meter id="disk_f" value="0.5">50%</meter>
+
+                    <p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+                                        <h1>The nav element</h1>
+
+                    <p>The nav element defines a set of navigation links:</p>
+
+                    <nav>
+                    <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> |
+                    <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> |
+                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a> |
+                    <a href="https://www.w3schools.com/python/default.asp" target="_blank">Python</a>
+                    </nav>
+
+
+                                        <h1>The optgroup element</h1>
+
+                    <p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+                    <form>
+                    <label for="sweet item">Choose:</label>
+                    <select name="sweet item" id="sweets">
+                        <optgroup label="sweets">
+                        <option value="candy">candy</option>
+                        <option value="macaroon">macaroon</option>
+                        <option value="marshmellow">marshmellow</option>
+                        </optgroup>
+                        <optgroup label="Cakes">
+                        <option value="chocolate">chocolate</option>
+                        <option value="vanilla">vanilla</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                    </form>
+
+                    <h1>The output element</h1>
+
+                    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="0">
+                    =<output name="x" for="a b"></output>
+                    </form>
+
+                                            <h1>The source element</h1>
+
+                        <p>Click on the play button to play a sound:</p>
+
+                        <audio controls>
+                        <source src="ayat-ul-kursi.ogg" type="audio/ogg">
+                        <source src="audios/Ayat-ul-Kursi.mp3" type="audio/mpeg">
+                        
+                        </audio>
+
+                                        <h1>The sub and sup elements</h1>
+                                        <ol>
+
+                <li>H<sub>2</sub>SO<sub>4</sub></li>
+                <li>(a+b)<sup>2</sup>= a<sup>2</sup>+2ab+b<sup>2</sup></li>
+                </ol>
+
+                                    <h1>The svg element</h1>
+
+                    <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+
+                 </svg>
+
+                                <h1>The template Element</h1>
+
+                <p>Click the button below to display the hidden content from the template element.</p>
+                <button onclick="showContent()">Show hidden content</button>
+
+                <template>
+                <h2>Coffee</h2>
+                <img src="images/coffee.jpg" width="214" height="204">
+                </template>
+
+                <script>
+                function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+                }
+                </script>
+
+
+                    <h1>The textarea element</h1>
+
+                    <form action="/action_page.php">
+                    <p><label for="w3review">Write your Reviews:</label></p>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                    </form>
+
+                                    <h1>The video element</h1>
+
+                <video width="320" height="240" controls>
+                <source src="videos/flower.mp4" type="video/mp4">
+                <source src="flower.ogg" type="video/ogg">
+                </video>
+
+            </body>
+</html>

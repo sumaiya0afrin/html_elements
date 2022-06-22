@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(191, 245, 245);
+    text-align: center;
+    
+}
+
+ol{
+    
+    
+}
+
+ol li{
+    list-style: circle;
+    list-style-position: inside;
+}
